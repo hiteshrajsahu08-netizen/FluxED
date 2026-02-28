@@ -1,20 +1,95 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Fluxy AI – Adaptive Learning Platform
 
-# Run and deploy your AI Studio app
+An AI-powered learning platform that personalizes content difficulty based on student performance.
 
-This contains everything you need to run your app locally.
+Built to bridge learning gaps in underserved schools and provide intelligent academic support.
 
-View your app in AI Studio: https://ai.studio/apps/8d9ae974-5f17-4d4a-bdfb-0a8042822cb5
+🚀 Features
+🤖 AI Doubt Solver
 
-## Run Locally
+Text, voice, and image-based doubt submission
 
-**Prerequisites:**  Node.js
+Step-by-step explanations
 
+Diagram & story-based learning modes
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+AI-generated practice questions
+
+Smart follow-up to confirm understanding
+
+⚡ Quick Revision
+
+One-minute summary mode
+
+Flashcards
+
+5-question quick test
+
+Performance-based feedback
+
+📚 Chapter Learning Hub
+
+Subject → Chapter → Topic navigation
+
+Book PDFs (NCERT, RS Aggarwal, etc.)
+
+Topic-wise video links
+
+Student-rated video system
+
+AI-generated chapter tests
+
+🧠 Adaptive Quiz Engine
+
+Difficulty adjusts based on performance
+
+Conceptual + application-based questions
+
+Real-time evaluation & feedback
+
+Performance tracking
+
+📊 Performance Analytics
+
+Topic completion tracking
+
+Progress-based remarks
+
+Weak area identification
+
+Personalized revision suggestions
+
+🎯 Problem Statement
+
+Many students struggle because:
+
+One-size-fits-all learning
+
+No adaptive feedback
+
+Limited access to personalized guidance
+
+Fluxy AI solves this using intelligent adaptive logic.
+
+🛠 Tech Stack
+
+Frontend: React / Next.js
+
+Backend: Node.js
+
+AI: Google Gemini API
+
+Database: MongoDB / Firebase (planned)
+
+Search: RAG-based retrieval system
+
+🧠 Adaptive Logic
+
+Student attempts question
+
+AI evaluates answer
+
+Difficulty adjusts dynamically
+
+Hints provided if needed
+
